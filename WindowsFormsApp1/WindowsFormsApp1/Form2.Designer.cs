@@ -29,33 +29,36 @@
         private void InitializeComponent()
         {
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.pass2p = new System.Windows.Forms.TextBox();
             this.kurumsalradio = new System.Windows.Forms.RadioButton();
             this.bireyselradio = new System.Windows.Forms.RadioButton();
             this.BireyselKayit = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.passp = new System.Windows.Forms.TextBox();
+            this.usernamep = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.email = new System.Windows.Forms.Label();
+            this.emailp = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.Emailc = new System.Windows.Forms.TextBox();
+            this.emailcomp = new System.Windows.Forms.Label();
             this.KurumsalKayit = new System.Windows.Forms.Button();
+            this.HphoneC = new System.Windows.Forms.TextBox();
+            this.PhoneC = new System.Windows.Forms.TextBox();
+            this.TC = new System.Windows.Forms.TextBox();
+            this.Cname = new System.Windows.Forms.TextBox();
+            this.pass2c = new System.Windows.Forms.TextBox();
+            this.Passc = new System.Windows.Forms.TextBox();
+            this.UsernameC = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Backbutton = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -63,18 +66,18 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 72);
+            this.label3.Location = new System.Drawing.Point(18, 98);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 39;
             this.label3.Text = "Şifre Tekrar";
             // 
-            // textBox3
+            // pass2p
             // 
-            this.textBox3.Location = new System.Drawing.Point(86, 69);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 33;
+            this.pass2p.Location = new System.Drawing.Point(85, 95);
+            this.pass2p.Name = "pass2p";
+            this.pass2p.Size = new System.Drawing.Size(100, 20);
+            this.pass2p.TabIndex = 33;
             // 
             // kurumsalradio
             // 
@@ -102,7 +105,7 @@
             // 
             // BireyselKayit
             // 
-            this.BireyselKayit.Location = new System.Drawing.Point(97, 117);
+            this.BireyselKayit.Location = new System.Drawing.Point(94, 124);
             this.BireyselKayit.Name = "BireyselKayit";
             this.BireyselKayit.Size = new System.Drawing.Size(75, 23);
             this.BireyselKayit.TabIndex = 30;
@@ -113,7 +116,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 43);
+            this.label2.Location = new System.Drawing.Point(51, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 13);
             this.label2.TabIndex = 29;
@@ -128,58 +131,205 @@
             this.label1.TabIndex = 28;
             this.label1.Text = "Kullanıcı adı";
             // 
-            // textBox2
+            // passp
             // 
-            this.textBox2.Location = new System.Drawing.Point(86, 43);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 27;
+            this.passp.Location = new System.Drawing.Point(85, 69);
+            this.passp.Name = "passp";
+            this.passp.Size = new System.Drawing.Size(100, 20);
+            this.passp.TabIndex = 27;
             // 
-            // textBox1
+            // usernamep
             // 
-            this.textBox1.Location = new System.Drawing.Point(86, 17);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 26;
+            this.usernamep.Location = new System.Drawing.Point(86, 17);
+            this.usernamep.Name = "usernamep";
+            this.usernamep.Size = new System.Drawing.Size(100, 20);
+            this.usernamep.TabIndex = 26;
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.email);
+            this.panel2.Controls.Add(this.emailp);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.usernamep);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.passp);
+            this.panel2.Controls.Add(this.pass2p);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.BireyselKayit);
             this.panel2.Location = new System.Drawing.Point(151, 125);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 153);
+            this.panel2.Size = new System.Drawing.Size(200, 167);
             this.panel2.TabIndex = 53;
+            // 
+            // email
+            // 
+            this.email.AutoSize = true;
+            this.email.Location = new System.Drawing.Point(48, 46);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(32, 13);
+            this.email.TabIndex = 41;
+            this.email.Text = "Email";
+            // 
+            // emailp
+            // 
+            this.emailp.Location = new System.Drawing.Point(86, 43);
+            this.emailp.Name = "emailp";
+            this.emailp.Size = new System.Drawing.Size(100, 20);
+            this.emailp.TabIndex = 40;
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.Emailc);
+            this.panel3.Controls.Add(this.emailcomp);
             this.panel3.Controls.Add(this.KurumsalKayit);
-            this.panel3.Controls.Add(this.textBox11);
-            this.panel3.Controls.Add(this.textBox10);
-            this.panel3.Controls.Add(this.textBox9);
-            this.panel3.Controls.Add(this.textBox8);
-            this.panel3.Controls.Add(this.textBox7);
-            this.panel3.Controls.Add(this.textBox6);
-            this.panel3.Controls.Add(this.textBox5);
-            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.HphoneC);
+            this.panel3.Controls.Add(this.PhoneC);
+            this.panel3.Controls.Add(this.TC);
+            this.panel3.Controls.Add(this.Cname);
+            this.panel3.Controls.Add(this.pass2c);
+            this.panel3.Controls.Add(this.Passc);
+            this.panel3.Controls.Add(this.UsernameC);
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Location = new System.Drawing.Point(384, 125);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(221, 279);
+            this.panel3.Size = new System.Drawing.Size(221, 314);
             this.panel3.TabIndex = 54;
             this.panel3.Visible = false;
+            // 
+            // Emailc
+            // 
+            this.Emailc.Location = new System.Drawing.Point(104, 43);
+            this.Emailc.Name = "Emailc";
+            this.Emailc.Size = new System.Drawing.Size(100, 20);
+            this.Emailc.TabIndex = 88;
+            // 
+            // emailcomp
+            // 
+            this.emailcomp.AutoSize = true;
+            this.emailcomp.Location = new System.Drawing.Point(61, 46);
+            this.emailcomp.Name = "emailcomp";
+            this.emailcomp.Size = new System.Drawing.Size(32, 13);
+            this.emailcomp.TabIndex = 87;
+            this.emailcomp.Text = "Email";
+            // 
+            // KurumsalKayit
+            // 
+            this.KurumsalKayit.Location = new System.Drawing.Point(116, 251);
+            this.KurumsalKayit.Name = "KurumsalKayit";
+            this.KurumsalKayit.Size = new System.Drawing.Size(75, 23);
+            this.KurumsalKayit.TabIndex = 86;
+            this.KurumsalKayit.Text = "Kayıtol";
+            this.KurumsalKayit.UseVisualStyleBackColor = true;
+            this.KurumsalKayit.Click += new System.EventHandler(this.KurumsalKayit_Click);
+            // 
+            // HphoneC
+            // 
+            this.HphoneC.Location = new System.Drawing.Point(105, 199);
+            this.HphoneC.Name = "HphoneC";
+            this.HphoneC.Size = new System.Drawing.Size(100, 20);
+            this.HphoneC.TabIndex = 85;
+            // 
+            // PhoneC
+            // 
+            this.PhoneC.Location = new System.Drawing.Point(104, 173);
+            this.PhoneC.Name = "PhoneC";
+            this.PhoneC.Size = new System.Drawing.Size(100, 20);
+            this.PhoneC.TabIndex = 84;
+            // 
+            // TC
+            // 
+            this.TC.Location = new System.Drawing.Point(104, 147);
+            this.TC.Name = "TC";
+            this.TC.Size = new System.Drawing.Size(100, 20);
+            this.TC.TabIndex = 83;
+            // 
+            // Cname
+            // 
+            this.Cname.Location = new System.Drawing.Point(104, 121);
+            this.Cname.Name = "Cname";
+            this.Cname.Size = new System.Drawing.Size(100, 20);
+            this.Cname.TabIndex = 81;
+            // 
+            // pass2c
+            // 
+            this.pass2c.Location = new System.Drawing.Point(104, 95);
+            this.pass2c.Name = "pass2c";
+            this.pass2c.Size = new System.Drawing.Size(100, 20);
+            this.pass2c.TabIndex = 80;
+            // 
+            // Passc
+            // 
+            this.Passc.Location = new System.Drawing.Point(104, 69);
+            this.Passc.Name = "Passc";
+            this.Passc.Size = new System.Drawing.Size(100, 20);
+            this.Passc.TabIndex = 79;
+            // 
+            // UsernameC
+            // 
+            this.UsernameC.Location = new System.Drawing.Point(103, 17);
+            this.UsernameC.Name = "UsernameC";
+            this.UsernameC.Size = new System.Drawing.Size(100, 20);
+            this.UsernameC.TabIndex = 78;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(29, 202);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(70, 13);
+            this.label11.TabIndex = 77;
+            this.label11.Text = "Sabit Telefon";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(33, 176);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 13);
+            this.label10.TabIndex = 76;
+            this.label10.Text = "Cep Telefon";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(47, 150);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 13);
+            this.label9.TabIndex = 75;
+            this.label9.Text = "TC Kimlik";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(43, 124);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 13);
+            this.label7.TabIndex = 73;
+            this.label7.Text = "Şirket Adı";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(36, 98);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 13);
+            this.label6.TabIndex = 72;
+            this.label6.Text = "Şifre Tekrar";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(70, 72);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(28, 13);
+            this.label5.TabIndex = 71;
+            this.label5.Text = "Şifre";
             // 
             // label4
             // 
@@ -190,145 +340,29 @@
             this.label4.TabIndex = 70;
             this.label4.Text = "Kullanıcı Adı";
             // 
-            // label5
+            // Backbutton
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(69, 46);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(28, 13);
-            this.label5.TabIndex = 71;
-            this.label5.Text = "Şifre";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(35, 72);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 13);
-            this.label6.TabIndex = 72;
-            this.label6.Text = "Şifre Tekrar";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(42, 98);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(55, 13);
-            this.label7.TabIndex = 73;
-            this.label7.Text = "Kurum Adı";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(31, 124);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 13);
-            this.label8.TabIndex = 74;
-            this.label8.Text = "Vergi Dairesi";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(46, 150);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 13);
-            this.label9.TabIndex = 75;
-            this.label9.Text = "TC Kimlik";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(32, 176);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 13);
-            this.label10.TabIndex = 76;
-            this.label10.Text = "Cep Telefon";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(28, 202);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(70, 13);
-            this.label11.TabIndex = 77;
-            this.label11.Text = "Sabit Telefon";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(103, 17);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 78;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(103, 43);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 79;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(103, 69);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 80;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(103, 95);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 81;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(103, 121);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 82;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(103, 147);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 83;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(103, 173);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 84;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(104, 199);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 85;
-            // 
-            // KurumsalKayit
-            // 
-            this.KurumsalKayit.Location = new System.Drawing.Point(114, 240);
-            this.KurumsalKayit.Name = "KurumsalKayit";
-            this.KurumsalKayit.Size = new System.Drawing.Size(75, 23);
-            this.KurumsalKayit.TabIndex = 86;
-            this.KurumsalKayit.Text = "Kayıtol";
-            this.KurumsalKayit.UseVisualStyleBackColor = true;
+            this.Backbutton.Location = new System.Drawing.Point(22, 12);
+            this.Backbutton.Name = "Backbutton";
+            this.Backbutton.Size = new System.Drawing.Size(75, 23);
+            this.Backbutton.TabIndex = 55;
+            this.Backbutton.Text = "Geri";
+            this.Backbutton.UseVisualStyleBackColor = true;
+            this.Backbutton.Click += new System.EventHandler(this.Backbutton_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1218, 636);
+            this.Controls.Add(this.Backbutton);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.kurumsalradio);
             this.Controls.Add(this.bireyselradio);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -340,32 +374,35 @@
 
         #endregion
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox pass2p;
         private System.Windows.Forms.RadioButton kurumsalradio;
         private System.Windows.Forms.RadioButton bireyselradio;
         private System.Windows.Forms.Button BireyselKayit;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox passp;
+        private System.Windows.Forms.TextBox usernamep;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button KurumsalKayit;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox HphoneC;
+        private System.Windows.Forms.TextBox PhoneC;
+        private System.Windows.Forms.TextBox TC;
+        private System.Windows.Forms.TextBox Cname;
+        private System.Windows.Forms.TextBox pass2c;
+        private System.Windows.Forms.TextBox Passc;
+        private System.Windows.Forms.TextBox UsernameC;
+        private System.Windows.Forms.Label email;
+        private System.Windows.Forms.TextBox emailp;
+        private System.Windows.Forms.TextBox Emailc;
+        private System.Windows.Forms.Label emailcomp;
+        private System.Windows.Forms.Button Backbutton;
     }
 }
