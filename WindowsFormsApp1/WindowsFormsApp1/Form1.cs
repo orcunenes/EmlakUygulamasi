@@ -64,6 +64,10 @@ namespace WindowsFormsApp1
 
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form add = new add();
+            add.Show();
+        }
     }
 }

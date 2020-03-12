@@ -47,6 +47,12 @@ namespace WindowsFormsApp1
             //satilikform.show();
         }
 
-       
+        private void ilanekle_Click(object sender, EventArgs e)
+        {
+            Form add = new add();
+            add.Show();
+            this.Close();
+
+        }
     }
 }

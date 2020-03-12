@@ -41,6 +41,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.ilanekle = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Slidertrack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Slider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -161,11 +162,22 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "ÖNE ÇIKANLAR";
             // 
+            // ilanekle
+            // 
+            this.ilanekle.Location = new System.Drawing.Point(697, 24);
+            this.ilanekle.Name = "ilanekle";
+            this.ilanekle.Size = new System.Drawing.Size(106, 46);
+            this.ilanekle.TabIndex = 12;
+            this.ilanekle.Text = "İlan Ekle";
+            this.ilanekle.UseVisualStyleBackColor = true;
+            this.ilanekle.Click += new System.EventHandler(this.ilanekle_Click);
+            // 
             // Homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1241, 846);
+            this.Controls.Add(this.ilanekle);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -208,5 +220,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button ilanekle;
     }
 }
