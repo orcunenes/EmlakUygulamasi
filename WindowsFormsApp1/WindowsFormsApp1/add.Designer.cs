@@ -59,6 +59,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.cephe = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.Baslik = new System.Windows.Forms.Label();
+            this.Baslikt = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,7 +121,7 @@
             // price
             // 
             this.price.AutoSize = true;
-            this.price.Location = new System.Drawing.Point(474, 123);
+            this.price.Location = new System.Drawing.Point(474, 152);
             this.price.Name = "price";
             this.price.Size = new System.Drawing.Size(29, 13);
             this.price.TabIndex = 10;
@@ -128,7 +130,7 @@
             // rooms
             // 
             this.rooms.AutoSize = true;
-            this.rooms.Location = new System.Drawing.Point(474, 151);
+            this.rooms.Location = new System.Drawing.Point(474, 180);
             this.rooms.Name = "rooms";
             this.rooms.Size = new System.Drawing.Size(53, 13);
             this.rooms.TabIndex = 11;
@@ -137,7 +139,7 @@
             // sq
             // 
             this.sq.AutoSize = true;
-            this.sq.Location = new System.Drawing.Point(474, 178);
+            this.sq.Location = new System.Drawing.Point(474, 207);
             this.sq.Name = "sq";
             this.sq.Size = new System.Drawing.Size(55, 13);
             this.sq.TabIndex = 12;
@@ -146,7 +148,7 @@
             // age
             // 
             this.age.AutoSize = true;
-            this.age.Location = new System.Drawing.Point(474, 204);
+            this.age.Location = new System.Drawing.Point(474, 233);
             this.age.Name = "age";
             this.age.Size = new System.Drawing.Size(51, 13);
             this.age.TabIndex = 13;
@@ -155,7 +157,7 @@
             // floor
             // 
             this.floor.AutoSize = true;
-            this.floor.Location = new System.Drawing.Point(474, 230);
+            this.floor.Location = new System.Drawing.Point(474, 259);
             this.floor.Name = "floor";
             this.floor.Size = new System.Drawing.Size(53, 13);
             this.floor.TabIndex = 14;
@@ -164,7 +166,7 @@
             // heating
             // 
             this.heating.AutoSize = true;
-            this.heating.Location = new System.Drawing.Point(474, 256);
+            this.heating.Location = new System.Drawing.Point(474, 285);
             this.heating.Name = "heating";
             this.heating.Size = new System.Drawing.Size(34, 13);
             this.heating.TabIndex = 15;
@@ -173,7 +175,7 @@
             // aidat
             // 
             this.aidat.AutoSize = true;
-            this.aidat.Location = new System.Drawing.Point(474, 282);
+            this.aidat.Location = new System.Drawing.Point(474, 311);
             this.aidat.Name = "aidat";
             this.aidat.Size = new System.Drawing.Size(31, 13);
             this.aidat.TabIndex = 16;
@@ -181,7 +183,7 @@
             // 
             // addthis
             // 
-            this.addthis.Location = new System.Drawing.Point(517, 466);
+            this.addthis.Location = new System.Drawing.Point(517, 478);
             this.addthis.Name = "addthis";
             this.addthis.Size = new System.Drawing.Size(125, 43);
             this.addthis.TabIndex = 21;
@@ -191,56 +193,56 @@
             // 
             // Pprice
             // 
-            this.Pprice.Location = new System.Drawing.Point(542, 123);
+            this.Pprice.Location = new System.Drawing.Point(542, 152);
             this.Pprice.Name = "Pprice";
             this.Pprice.Size = new System.Drawing.Size(100, 20);
             this.Pprice.TabIndex = 22;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(542, 149);
+            this.textBox2.Location = new System.Drawing.Point(542, 178);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 23;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(542, 175);
+            this.textBox3.Location = new System.Drawing.Point(542, 204);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 24;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(542, 201);
+            this.textBox4.Location = new System.Drawing.Point(542, 230);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 25;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(542, 227);
+            this.textBox5.Location = new System.Drawing.Point(542, 256);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 26;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(542, 253);
+            this.textBox6.Location = new System.Drawing.Point(542, 282);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 27;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(542, 279);
+            this.textBox7.Location = new System.Drawing.Point(542, 308);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 28;
             // 
             // site
             // 
-            this.site.Location = new System.Drawing.Point(542, 305);
+            this.site.Location = new System.Drawing.Point(542, 334);
             this.site.Name = "site";
             this.site.Size = new System.Drawing.Size(100, 20);
             this.site.TabIndex = 30;
@@ -248,7 +250,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(474, 308);
+            this.label5.Location = new System.Drawing.Point(474, 337);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 29;
@@ -256,7 +258,7 @@
             // 
             // esya
             // 
-            this.esya.Location = new System.Drawing.Point(542, 331);
+            this.esya.Location = new System.Drawing.Point(542, 360);
             this.esya.Name = "esya";
             this.esya.Size = new System.Drawing.Size(100, 20);
             this.esya.TabIndex = 32;
@@ -264,7 +266,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(474, 334);
+            this.label6.Location = new System.Drawing.Point(474, 363);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 13);
             this.label6.TabIndex = 31;
@@ -272,7 +274,7 @@
             // 
             // balkon
             // 
-            this.balkon.Location = new System.Drawing.Point(542, 357);
+            this.balkon.Location = new System.Drawing.Point(542, 386);
             this.balkon.Name = "balkon";
             this.balkon.Size = new System.Drawing.Size(100, 20);
             this.balkon.TabIndex = 34;
@@ -280,7 +282,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(474, 360);
+            this.label7.Location = new System.Drawing.Point(474, 389);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 33;
@@ -288,7 +290,7 @@
             // 
             // st
             // 
-            this.st.Location = new System.Drawing.Point(542, 383);
+            this.st.Location = new System.Drawing.Point(542, 412);
             this.st.Name = "st";
             this.st.Size = new System.Drawing.Size(100, 20);
             this.st.TabIndex = 36;
@@ -296,7 +298,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(474, 386);
+            this.label8.Location = new System.Drawing.Point(474, 415);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(68, 13);
             this.label8.TabIndex = 35;
@@ -304,7 +306,7 @@
             // 
             // cephe
             // 
-            this.cephe.Location = new System.Drawing.Point(542, 409);
+            this.cephe.Location = new System.Drawing.Point(542, 438);
             this.cephe.Name = "cephe";
             this.cephe.Size = new System.Drawing.Size(100, 20);
             this.cephe.TabIndex = 38;
@@ -312,17 +314,35 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(474, 412);
+            this.label9.Location = new System.Drawing.Point(474, 441);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 13);
             this.label9.TabIndex = 37;
             this.label9.Text = "Cephe";
+            // 
+            // Baslik
+            // 
+            this.Baslik.AutoSize = true;
+            this.Baslik.Location = new System.Drawing.Point(477, 123);
+            this.Baslik.Name = "Baslik";
+            this.Baslik.Size = new System.Drawing.Size(35, 13);
+            this.Baslik.TabIndex = 39;
+            this.Baslik.Text = "Başlık";
+            // 
+            // Baslikt
+            // 
+            this.Baslikt.Location = new System.Drawing.Point(542, 123);
+            this.Baslikt.Name = "Baslikt";
+            this.Baslikt.Size = new System.Drawing.Size(100, 20);
+            this.Baslikt.TabIndex = 40;
             // 
             // add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 605);
+            this.Controls.Add(this.Baslikt);
+            this.Controls.Add(this.Baslik);
             this.Controls.Add(this.cephe);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.st);
@@ -395,5 +415,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox cephe;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Baslik;
+        private System.Windows.Forms.TextBox Baslikt;
     }
 }

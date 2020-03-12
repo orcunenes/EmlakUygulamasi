@@ -11,9 +11,12 @@ namespace WindowsFormsApp1
         SQLiteDataAdapter da;
         SQLiteCommand cmd;
         DataSet ds;
+
         public add()
         {
             InitializeComponent();
+            con = new SQLiteConnection("Data Source=C:/Users/orcun/Desktop/WindowsFormsApp1/WindowsFormsApp1/Database/Database.s3db;Version=3;"); cmd = new SQLiteCommand();
+
         }
 
         private void addthis_Click(object sender, EventArgs e)
@@ -21,7 +24,7 @@ namespace WindowsFormsApp1
             cmd = new SQLiteCommand();
             con.Open();
             cmd.Connection = con;
-            cmd.CommandText = "insert into Ilanlar(Price,Room,Square,Age,Floor,Heating,Aidat,Siteici,Esyali,Balkon,ST,Cephe) values ('" + Pprice.Text + "','" + rooms.Text + "','" + sq.Text + "','" + age.Text + "','" + floor.Text + "','" + heating.Text + "','" + aidat.Text + "','" + site.Text + "','" + esya.Text + "','" + balkon.Text + "','" + st.Text + "','" + cephe.Text + "')";
+            cmd.CommandText = "insert into Ilanlar(Price,Room,Square,Age,Floor,Heating,Aidat,Siteici,Esyali,Balkon,ST,Cephe,Baslik) values ('" + Pprice.Text + "','" + rooms.Text + "','" + sq.Text + "','" + age.Text + "','" + floor.Text + "','" + heating.Text + "','" + aidat.Text + "','" + site.Text + "','" + esya.Text + "','" + balkon.Text + "','" + st.Text + "','" + cephe.Text +"','"+Baslikt.Text+ "')";
 
             cmd.ExecuteNonQuery();
             con.Close();
